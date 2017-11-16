@@ -119,6 +119,7 @@ class VideoCell: BaseCell {
         addSubview(titleLabel)
         addSubview(subtitleTextView)
         
+
         addConstraintsWithFormat(format: "H:|-16-[v0]-16-|", views: thumbnailImageView)
         
         addConstraintsWithFormat(format: "H:|-16-[v0(44)]|", views: userProfileImageView)
